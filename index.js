@@ -12,7 +12,8 @@ app.get('/', (req, res) => {
     res.send('Hello World! deployed 1')
 })
 app.get('/home', (req, res) => {
-    res.render(__dirname + '/views/home.ejs')
+    res.render('home.ejs')
+    // res.render(__dirname + '/views/home.ejs')
 })
 
 
