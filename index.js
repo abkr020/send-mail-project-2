@@ -9,7 +9,7 @@ app.set("view engine", "ejs")
 
 
 app.get('/', (req, res) => {
-    res.send('Hello World! deployed')
+    res.send('Hello World! deployed 1')
 })
 app.get('/home', (req, res) => {
     res.render(__dirname + '/views/home.ejs')
